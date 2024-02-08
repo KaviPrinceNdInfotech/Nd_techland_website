@@ -4,7 +4,7 @@ function OurService() {
   return (
     <>
       <section className="service-section-app pad-tb dark-bg2">
-                <div className="sctxt">App Development</div>
+              
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-lg-6">
@@ -38,8 +38,7 @@ function OurService() {
                                         </a></li>
                                     </ul>
                                 </div>
-                                <p className="mt20">Design and develop a creative website with our microscopic detailing and
-                                    scrupulous strategies.</p>
+                                <p className="mt20">N D Techland Pvt. Ltd. crafts custom mobile apps for iOS, Android, and cross-platform, prioritizing user experience and scalability.</p>
                                 <a href="javascript:void(0)" className="mt20 link-prbs">Read More <i
                                     className="fas fa fa-arrow-circle-right"></i></a>
                             </div>
@@ -69,8 +68,7 @@ function OurService() {
                                         </a></li>
                                     </ul>
                                 </div>
-                                <p className="mt20">Design and develop a creative website with our microscopic detailing and
-                                    scrupulous strategies.</p>
+                                <p className="mt20">At N D Techland Pvt. Ltd., we specialize in crafting dynamic websites tailored to your needs, ensuring seamless functionality and user engagement.</p>
                                 <a href="javascript:void(0)" className="mt20 link-prbs">Read More <i
                                     className="fas fa fa-arrow-circle-right"></i></a>
                             </div>
@@ -96,8 +94,7 @@ function OurService() {
                                         </a></li>
                                     </ul>
                                 </div>
-                                <p className="mt20">Design and develop a creative website with our microscopic detailing and
-                                    scrupulous strategies.</p>
+                                <p className="mt20">N D Techland Pvt. Ltd. excels in eCommerce development, creating robust online platforms that drive sales, enhance user experience and foster growth.</p>
                                 <a href="javascript:void(0)" className="mt20 link-prbs">Read More <i
                                     className="fas fa fa-arrow-circle-right"></i></a>
                             </div>

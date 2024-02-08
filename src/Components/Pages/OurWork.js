@@ -1,10 +1,13 @@
 import React from 'react'
-import banner from "../Image/app-img1.jpg"
-import banner1 from "../Image/app-img2.jpg"
-import banner2 from "../Image/app-img3.jpg"
-import banner3 from "../Image/app-img4.jpg"
-import banner4 from "../Image/app-img5.jpg"
-import banner5 from "../Image/app-img6.jpg"
+import banner from "../Image/PS.png"
+import banner1 from "../Image/car rental.png"
+import banner2 from "../Image/Voit.png"
+import banner3 from "../Image/Resturant.png"
+import banner4 from "../Image/Beauty.png"
+import banner44 from "../Image/Fitness.png"
+import banner5 from "../Image/Travel (2).png"
+import banner55 from "../Image/Travel (1).png"
+import banner51 from "../Image/CRM.png"
 
 function OurWork() {
   return (
@@ -26,8 +29,8 @@ function OurWork() {
 							<a href="#"><img src={banner} alt="image" className="img-fluid" /> </a>
 						</div>
 						<div className="item-info-div shdo">
-							<h4><a href="#">Pets Care & Training App</a></h4>
-							<p>iOs, Android</p>
+							<h4><a href="#">Health Care App</a></h4>
+							
 						</div>
 					</div>
 				</div>
@@ -38,7 +41,7 @@ function OurWork() {
 						</div>
 						<div className="item-info-div shdo">
 							<h4><a href="#">Car Rental App</a></h4>
-							<p>Graphic, Print</p>
+						
 						</div>
 					</div>
 				</div>
@@ -48,8 +51,8 @@ function OurWork() {
 							<a href="#"><img src={banner2} alt="image" className="img-fluid" /> </a>
 						</div>
 						<div className="item-info-div shdo">
-							<h4><a href="#">Event Management App</a></h4>
-							<p>Graphic, Print</p>
+							<h4><a href="#">E-commerce App</a></h4>
+						
 						</div>
 					</div>
 				</div>
@@ -60,18 +63,18 @@ function OurWork() {
 						</div>
 						<div className="item-info-div shdo">
 							<h4><a href="#">Restaurant App</a></h4>
-							<p>iOs, Android</p>
+						
 						</div>
 					</div>
 				</div>
 				<div className="col-lg-4 col-sm-6 mt40 wow fadeIn" data-wow-delay="1s">
 					<div className="isotope_item up-hor">
 						<div className="item-image">
-							<a href="#"><img src={banner4} alt="image" className="img-fluid" /> </a>
+							<a href="#"><img src={banner44} alt="image" className="img-fluid" /> </a>
 						</div>
 						<div className="item-info-div shdo">
-							<h4><a href="#">Restaurant / Hotel App</a></h4>
-							<p>Graphic, Print</p>
+							<h4><a href="#">Gym & fitness App</a></h4>
+						
 						</div>
 					</div>
 				</div>
@@ -81,8 +84,41 @@ function OurWork() {
 							<a href="#"><img src={banner5} alt="image" className="img-fluid" /> </a>
 						</div>
 						<div className="item-info-div shdo">
-							<h4><a href="#">Super Mart App</a></h4>
-							<p>Graphic, Print</p>
+							<h4><a href="#">Grocery App</a></h4>
+							
+						</div>
+					</div>
+				</div>
+				<div className="col-lg-4 col-sm-6 mt40 wow fadeIn" data-wow-delay="1.2s">
+					<div className="isotope_item up-hor">
+						<div className="item-image">
+							<a href="#"><img src={banner4} alt="image" className="img-fluid" /> </a>
+						</div>
+						<div className="item-info-div shdo">
+							<h4><a href="#">Beauty & Saloon App</a></h4>
+							
+						</div>
+					</div>
+				</div>
+				<div className="col-lg-4 col-sm-6 mt40 wow fadeIn" data-wow-delay="1.2s">
+					<div className="isotope_item up-hor">
+						<div className="item-image">
+							<a href="#"><img src={banner55} alt="image" className="img-fluid" /> </a>
+						</div>
+						<div className="item-info-div shdo">
+							<h4><a href="#">Travel App</a></h4>
+							
+						</div>
+					</div>
+				</div>
+				<div className="col-lg-4 col-sm-6 mt40 wow fadeIn" data-wow-delay="1.2s">
+					<div className="isotope_item up-hor">
+						<div className="item-image">
+							<a href="#"><img src={banner51} alt="image" className="img-fluid" /> </a>
+						</div>
+						<div className="item-info-div shdo">
+							<h4><a href="#">CRM App</a></h4>
+							
 						</div>
 					</div>
 				</div>

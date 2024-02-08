@@ -1,10 +1,13 @@
 import React from 'react'
 import image from "../Image/download.png"
+import download5 from "../Image/download (5).jpg"
 import image2 from "../Image/images (5).jpg"
 import image3 from "../Image/What-is-Digital-Marketing.png"
 import image4 from "../Image/images (6).jpg"
 import image7 from "../Image/images (7).jpg"
 import { Link } from 'react-router-dom'
+// import "../css/wave.css"
+
 
 function Blog() {
     return (
@@ -32,6 +35,8 @@ function Blog() {
                     </div>
                 </div>
             </section>
+
+         
             <section className="blog-page pad-tb">
                 <div className="container">
                     <div className="row">
@@ -46,7 +51,7 @@ function Blog() {
                                         <div className="entry-blog">
                                             <span className="bypost"><a href="#"><i className="fas fa-user"></i>By Admin</a></span>
                                             <span className="posted-on">
-                                                <a href="#"><i className="fas fa-clock"></i> Sep 2, 2022</a>
+                                                <a href="#"><i className="fas fa-clock"></i> Sep 2, 2023</a>
                                             </span>
                                             <span><a href="#"><i className="fas fa-comment-dots"></i> (23)</a></span>
                                         </div>
@@ -63,9 +68,9 @@ function Blog() {
                                         <div className="entry-blog">
                                             <span className="bypost"><a href="#"><i className="fas fa-user"></i> By Admin</a></span>
                                             <span className="posted-on">
-                                                <a href="#"><i className="fas fa-clock"></i> jan 2, 2023</a>
+                                                <a href="#"><i className="fas fa-clock"></i> Dec 12, 2023</a>
                                             </span>
-                                            <span><a href="#"><i className="fas fa-comment-dots"></i> (24)</a></span>
+                                            <span><a href="#"><i className="fas fa-comment-dots"></i> (45)</a></span>
                                         </div>
                                         <h4><a href="#"> Hybrid Mobile App Development</a></h4>
                                         <p>At our company, we are proud to provide the best mobile application development services available. We understand that in today's digital age, having a mobile app for your business is essential for reaching your target audience and staying ahead of the competition. That's why we have a team of expert mobile app developers who specialize in creating customized mobile applications tailored to your unique business needs.</p>
@@ -80,7 +85,7 @@ function Blog() {
                                         <div className="entry-blog">
                                             <span className="bypost"><a href="#"><i className="fas fa-user"></i> Tom Black</a></span>
                                             <span className="posted-on">
-                                                <a href="#"><i className="fas fa-clock"></i> Sep 24, 2019</a>
+                                                <a href="#"><i className="fas fa-clock"></i> Dec, 2023</a>
                                             </span>
                                             <span><a href="#"><i className="fas fa-comment-dots"></i> (23)</a></span>
                                         </div>
@@ -107,20 +112,20 @@ function Blog() {
                                     <h3 className="mb30">Recent post</h3>
                                     <div className="media">
                                         <div className="post-image bdr-radius">
-                                            <a href="#"><img src="images/blog/blog-small.jpg" alt="girl" className="img-fluid" /></a>
+                                            <a href="#"><img src={download5} alt="girl" className="img-fluid" /></a>
                                         </div>
                                         <div className="media-body post-info">
-                                            <h5><a href="#">Stock Market App Development - Time, Cost, Features</a></h5>
-                                            <p>September 24, 2019</p>
+                                            <h5>Stock Market App Development - Time, Cost, Features</h5>
+                                            <p>September 24, 2023</p>
                                         </div>
                                     </div>
-                                    <div className="media">
+                                    {/* <div className="media">
                                         <div className="post-image bdr-radius">
                                             <a href="#"><img src="images/blog/blog-small2.jpg" alt="girl" className="img-fluid" /></a>
                                         </div>
                                         <div className="media-body post-info">
                                             <h5><a href="#">Stock Market App Development - Time, Cost, Features</a></h5>
-                                            <p>September 24, 2019</p>
+                                            <p>june 26, 2023</p>
                                         </div>
                                     </div>
                                     <div className="media">
@@ -129,9 +134,9 @@ function Blog() {
                                         </div>
                                         <div className="media-body post-info">
                                             <h5><a href="#">Stock Market App Development - Time, Cost, Features</a></h5>
-                                            <p>September 24, 2019</p>
+                                            <p>March 12, 2023</p>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
 
                                 <div className="recent-post widgets mt60">

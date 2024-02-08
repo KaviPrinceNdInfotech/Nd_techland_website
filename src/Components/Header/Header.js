@@ -145,10 +145,10 @@ function Header() {
                             </div>
                             {openMenu &&
                                 <div>
-                                    <Link to="/aboutus"><a class="list-group-item list-group-item-action bg-secondary text-">About</a></Link>
-                                    <Link to="/whyus"><a class="list-group-item list-group-item-action bg-secondary text-">Why Us</a></Link>
-                                    <Link to="/mission"><a class="list-group-item list-group-item-action bg-secondary text-">Mission & Vission</a></Link>
-                                    <Link to="/ourteam"><a class="list-group-item list-group-item-action bg-secondary text-">Our Team</a></Link>
+                                    <Link to="/aboutus"><a class="list-group-item list-group-item-action bg-secondary text-light">About</a></Link>
+                                    <Link to="/whyus"><a class="list-group-item list-group-item-action bg-secondary text-light">Why Us</a></Link>
+                                    <Link to="/mission"><a class="list-group-item list-group-item-action bg-secondary text-light">Mission & Vission</a></Link>
+                                    <Link to="/ourteam"><a class="list-group-item list-group-item-action bg-secondary text-light">Our Team</a></Link>
                                 </div>
                             }
 

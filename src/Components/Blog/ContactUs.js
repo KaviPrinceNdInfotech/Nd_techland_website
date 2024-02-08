@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import download from "../Image/download.jpg"
+import download from "../Image/download (2).png"
 import axios from "axios"
 function ContactUs() {
 
@@ -52,10 +52,7 @@ function ContactUs() {
             </section> */}
 
             <div>
-                <div style={{ backgroundImage: `url(${download})`, height: "100vh", backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
-
-
-                </div>
+               <img src={download} alt="img" style={{backgroundSize:"cover",width:"100vw"}}/>
 
             </div>
 

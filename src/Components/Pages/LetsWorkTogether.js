@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function LetsWorkTogether() {
     return (
@@ -10,8 +11,8 @@ function LetsWorkTogether() {
                             <div className="common-heading text-w">
                                 <span>Let's work together</span>
                                 <h2>We Love to Listen to Your Requirements</h2>
-                                <a href="#" className="btn-main bg-btn4 lnk">GET STARTED<i
-                                    className="fas fa-chevron-right fa-icon"></i><span className="circle"></span></a>
+                                <Link to="/contactus" className="btn-main bg-btn4 lnk">GET STARTED<i
+                                    className="fas fa-chevron-right fa-icon"></i><span className="circle"></span></Link>
                                 <p className="cta-call">Or call us now <a href="tel:+1234567890"><i className="fas fa-phone-alt"></i>
                                     0120 4354103</a></p>
                             </div>

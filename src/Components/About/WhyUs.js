@@ -84,30 +84,31 @@ function WhyUs() {
                                 </div>
                             </div>
                         </div>
+                       
                         <div class="col-lg-6">
                             <div class="itm-media-object mt40 tilt-3d">
                                 <div class="media">
                                     <div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"><img
                                         src="images/icons/computers.svg" alt="icon" class="layer" /></div>
                                     <div class="media-body">
-                                        <h4>Streamlined Project Management</h4>
-                                        <p>Streamline Project Management Processes with a Platform That Has It All. The quicker you can get your team fully operational, the simpler managing projects will turn into</p>
+                                        <h4> Customer-Centric Approach</h4>
+                                        <p> We prioritize understanding your requirements, ensuring that our solutions align perfectly with your business objectives and exceed your expectations.</p>
                                     </div>
                                 </div>
                                 <div class="media mt40">
                                     <div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"><img
                                         src="images/icons/worker.svg" alt="icon" class="layer" /></div>
                                     <div class="media-body">
-                                        <h4>A Dedicated Team of Experts</h4>
-                                        <p>We have a dedicated team of skilled professionals who are always available to support your project needs from A to Z. These experts work closely with the clients to support them throughout their entire learinng journey.</p>
+                                        <h4>Cutting-Edge Technology</h4>
+                                        <p> Stay ahead of the curve with our use of the latest technologies and frameworks, empowering your business with state-of-the-art solutions.</p>
                                     </div>
                                 </div>
                                 <div class="media mt40">
                                     <div class="img-ab- base" data-tilt data-tilt-max="20" data-tilt-speed="1000"> <img
                                         src="images/icons/deal.svg" alt="icon" class="layer" /></div>
                                     <div class="media-body">
-                                        <h4>Completion of Project in Given Time</h4>
-                                        <p>Our experts are dedicated in each and every step of a project. From quality to timing, they keep everything in mind. That is why we always succeeded to deliver the project before promised time and we will always try keep this habit as it is.</p>
+                                        <h4>Dedicated Support</h4>
+                                        <p>Our commitment doesn't end with project delivery. We provide ongoing support and maintenance to ensure seamless operation and continuous improvement.</p>
                                     </div>
                                 </div>
                             </div>
@@ -116,51 +117,7 @@ function WhyUs() {
                 </div>
             </section>
 
-            <section class="badges-section bg-gradient5  pad-tb">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="common-heading w-tdxt">
-                                <span>WE MAKE RELATIONSHIPS</span>
-                                <h2>Ranked as #1 Top Web & App Development Companies</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6 col-6">
-                            <div class="badges-content">
-                                <img src="images/about/badges-a.png" alt="budges" class="img-fluid" />
-                                <p>ABC DEF Industry Leader</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-6">
-                            <div class="badges-content">
-                                <img src="images/about/badges-b.png" alt="budges" class="img-fluid" />
-                                <p>Best eCommerce Development Company</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-6">
-                            <div class="badges-content">
-                                <img src="images/about/badges-c.png" alt="budges" class="img-fluid" />
-                                <p>ABC DEF High Performer Winner</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-6">
-                            <div class="badges-content">
-                                <img src="images/about/badges-d.png" alt="budges" class="img-fluid" />
-                                <p>Top App Developer 2019-20</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="-cta-btn mt70">
-                        <div class="free-cta-title v-center">
-                            <p>We <span>Promise.</span> We <span>Deliver.</span></p>
-                            <a href="#" class="btn-main bg-btn2 lnk">Let's Work Together<i
-                                class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+           
         </>
     )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import poster from "../Image/poster.png"
+import poster from "../Image/bannerposter.png"
 
 function TopRatedApp() {
     return (
@@ -15,28 +15,11 @@ function TopRatedApp() {
 
                                 </p>
                                 <div className="content-sec  d-flex mt30 v-center text-w wow fadeIn" data-wow-delay="0.6s">
-                                    <div className="mr25"><a href="#" className="btn-main bg-btn4 lnk">GET STARTED<i
+                                    <div className="mr25"><a href="/contactus" className="btn-main bg-btn4 lnk">GET STARTED<i
                                         className="fas fa-chevron-right fa-icon"></i><span className="circle"></span></a></div>
-                                    <div className="video-intro-pp v-center"><a className="video-link play-video"
-                                        href="https://www.youtube.com/watch?v=SZEflIVnhH8?autoplay=1&amp;rel=0"><span
-                                            className="triangle-play"></span></a></div>
-                                    <div className="title-hero-oth v-center">
-                                        <p>See live demo</p>
-                                    </div>
+                                  
                                 </div>
-                                <div className="awrd-sec text-w mt40 wow fadeIn" >
-                                    <h5>Our Achievements</h5>
-                                    <div className="bages-slider owl-carousel mt20">
-                                        <div className="img-badge-"><a href="#"> <img src="https://ndtechland.com/WebsiteCss/images/icons/badge1.png"
-                                            alt="niwax mobile app development company" className="img100w" /></a> </div>
-                                        <div className="img-badge-"><a href="#"> <img src="https://ndtechland.com/WebsiteCss/images/icons/badge1.png"
-                                            alt="niwax mobile app development company" className="img100w" /></a> </div>
-                                        <div className="img-badge-"><a href="#"> <img src="https://ndtechland.com/WebsiteCss/images/icons/badge1.png"
-                                            alt="niwax mobile app development company" className="img100w" /></a> </div>
-                                        <div className="img-badge-"><a href="#"> <img src="https://ndtechland.com/WebsiteCss/images/icons/badge1.png"
-                                            alt="niwax mobile app development company" className="img100w" /></a> </div>
-                                    </div>
-                                </div>
+                               
                             </div>
                         </div>
                         <div className="col-lg-6 v-center">

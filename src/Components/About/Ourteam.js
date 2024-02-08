@@ -33,7 +33,7 @@ function Ourteam() {
                             <div className="common-heading ptag">
                                 <span>We Are Awesome</span>
                                 <h2>Our Managing Directors</h2>
-                                <p className="mb0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                              
                             </div>
                         </div>
                     </div>
@@ -42,8 +42,8 @@ function Ourteam() {
                             <div className="full-image-card hover-scale">
                                 <div className="image-div"><a href="#"><img src="images/team/team-a.jpg" alt="team" className="img-fluid" /></a></div>
                                 <div className="info-text-block">
-                                    <h4><a href="#">Sasa Smile</a></h4>
-                                    <p>Company CEO</p>
+                                    <h4><a href="#!">Vineet Mishra</a></h4>
+                                    <p> CEO</p>
                                 </div>
                             </div>
                         </div>
@@ -51,8 +51,8 @@ function Ourteam() {
                             <div className="full-image-card hover-scale">
                                 <div className="image-div"><a href="#"><img src="images/team/team-b.jpg" alt="team" className="img-fluid" /></a></div>
                                 <div className="info-text-block">
-                                    <h4><a href="#">Moana Smile</a></h4>
-                                    <p>Company CTO</p>
+                                    <h4><a href="#">Priynka Shukla</a></h4>
+                                    <p> CTO</p>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@ function Ourteam() {
                             <div className="full-image-card hover-scale">
                                 <div className="image-div"><a href="#"><img src="images/team/team-c.jpg" alt="team" className="img-fluid" /></a></div>
                                 <div className="info-text-block">
-                                    <h4><a href="#">Bhvika Smile</a></h4>
+                                    <h4><a href="#">Punit Mishra</a></h4>
                                     <p>Company COO</p>
                                 </div>
                             </div>
@@ -74,9 +74,9 @@ function Ourteam() {
                     <div className="row justify-content-center">
                         <div className="col-lg-8">
                             <div className="common-heading ptag">
-                                <span>We Are Awesome</span>
-                                <h2>Our Team Members</h2>
-                                <p className="mb0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                              
+                                <h2>Our Core Team Members</h2>
+                               
                             </div>
                         </div>
                     </div>
@@ -85,8 +85,8 @@ function Ourteam() {
                             <div className="full-image-card hover-scale">
                                 <div className="image-div"><a href="#"><img src="images/team/team-1.jpg" alt="team" className="img-fluid" /></a></div>
                                 <div className="info-text-block">
-                                    <h4><a href="#">Shakita Daoust</a></h4>
-                                    <p>UI/UX Designer</p>
+                                    <h4>Rakesh Kumar Gupta</h4>
+                                    <p>Technical Lead</p>
                                 </div>
                             </div>
                         </div>
@@ -94,8 +94,8 @@ function Ourteam() {
                             <div className="full-image-card hover-scale">
                                 <div className="image-div"><a href="#"><img src="images/team/team-2.jpg" alt="team" className="img-fluid" /></a></div>
                                 <div className="info-text-block">
-                                    <h4><a href="#">Gerard Licari</a></h4>
-                                    <p>UI/UX Designer</p>
+                                    <h4>Kartik Saxena</h4>
+                                    <p>Lead Digital Marketing</p>
                                 </div>
                             </div>
                         </div>
@@ -103,8 +103,8 @@ function Ourteam() {
                             <div className="full-image-card hover-scale">
                                 <div className="image-div"><a href="#"><img src="images/team/team-3.jpg" alt="team" className="img-fluid" /></a></div>
                                 <div className="info-text-block">
-                                    <h4><a href="#">Teisha Yearta</a></h4>
-                                    <p>Web Developer</p>
+                                    <h4>Kumar Prince</h4>
+                                    <p>Sr App Developer</p>
                                 </div>
                             </div>
                         </div>
@@ -112,8 +112,8 @@ function Ourteam() {
                             <div className="full-image-card hover-scale">
                                 <div className="image-div"><a href="#"><img src="images/team/team-4.jpg" alt="team" className="img-fluid" /></a></div>
                                 <div className="info-text-block">
-                                    <h4><a href="#">Herman Running</a></h4>
-                                    <p>Web Developer</p>
+                                    <h4>Rahul Singh</h4>
+                                    <p>App Developer</p>
                                 </div>
                             </div>
                         </div>
@@ -121,8 +121,8 @@ function Ourteam() {
                             <div className="full-image-card hover-scale">
                                 <div className="image-div"><a href="#"><img src="images/team/team-5.jpg" alt="team" className="img-fluid" /></a></div>
                                 <div className="info-text-block">
-                                    <h4><a href="#">Cary Montgomery</a></h4>
-                                    <p>Android/IOS Developer</p>
+                                    <h4>Vishal Mishra</h4>
+                                    <p>FullStack Developer</p>
                                 </div>
                             </div>
                         </div>
@@ -130,8 +130,8 @@ function Ourteam() {
                             <div className="full-image-card hover-scale">
                                 <div className="image-div"><a href="#"><img src="images/team/team-6.jpg" alt="team" className="img-fluid" /></a></div>
                                 <div className="info-text-block">
-                                    <h4><a href="#">Mervin Griego</a></h4>
-                                    <p>Android/IOS Developer</p>
+                                    <h4>Vishnu Nath Tiwari</h4>
+                                    <p>UI Developer</p>
                                 </div>
                             </div>
                         </div>
@@ -139,8 +139,8 @@ function Ourteam() {
                             <div className="full-image-card hover-scale">
                                 <div className="image-div"><a href="#"><img src="images/team/team-7.jpg" alt="team" className="img-fluid" /></a></div>
                                 <div className="info-text-block">
-                                    <h4><a href="#">Janna Rother</a></h4>
-                                    <p>Graphic Desinger</p>
+                                    <h4><a href="#">Shubham Vishwakarma</a></h4>
+                                    <p>Sr. Developer</p>
                                 </div>
                             </div>
                         </div>
@@ -148,8 +148,35 @@ function Ourteam() {
                             <div className="full-image-card hover-scale">
                                 <div className="image-div"><a href="#"><img src="images/team/team-8.jpg" alt="team" className="img-fluid" /></a></div>
                                 <div className="info-text-block">
-                                    <h4><a href="#">Bianca Goers</a></h4>
-                                    <p>Graphic Desinger</p>
+                                    <h4>Akansha Omar</h4>
+                                    <p>Jr. Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-sm-6">
+                            <div className="full-image-card hover-scale">
+                                <div className="image-div"><a href="#"><img src="images/team/team-8.jpg" alt="team" className="img-fluid" /></a></div>
+                                <div className="info-text-block">
+                                    <h4>Anchal Shukla</h4>
+                                    <p>Jr. Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-sm-6">
+                            <div className="full-image-card hover-scale">
+                                <div className="image-div"><a href="#"><img src="images/team/team-8.jpg" alt="team" className="img-fluid" /></a></div>
+                                <div className="info-text-block">
+                                    <h4><a href="#">Madhu Singh Rajput</a></h4>
+                                    <p>Jr. Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-sm-6">
+                            <div className="full-image-card hover-scale">
+                                <div className="image-div"><a href="#"><img src="images/team/team-8.jpg" alt="team" className="img-fluid" /></a></div>
+                                <div className="info-text-block">
+                                    <h4><a href="#">Shubham Agrawal</a></h4>
+                                    <p>Video/Editor</p>
                                 </div>
                             </div>
                         </div>

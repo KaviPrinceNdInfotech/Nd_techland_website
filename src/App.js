@@ -15,6 +15,7 @@ import Careerpage from './Components/Blog/Careerpage'
 import Blog from './Components/Blog/Blog'
 import ContactUs from './Components/Blog/ContactUs'
 import TopScroll from './Components/Pages/TopScroll'
+import DigitalDetails from './Components/DetailPage/DigitalDetails'
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route path="/career" element={[<Header/>,<Careerpage />,<Footer/>]} />
           <Route path="/blog" element={[<Header/>,<Blog />,<Footer/>]} />
           <Route path="/contactus" element={[<Header/>,<ContactUs />,<Footer/>]} />
+          <Route path="/digitalservice" element={[<Header/>,<DigitalDetails />,<Footer/>]} />
         </Routes>
         <TopScroll/>
       </Router>

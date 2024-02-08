@@ -6,7 +6,7 @@ import OurService from '../Pages/OurService'
 import WhyChooseus from '../Pages/WhyChooseus'
 import OurWork from '../Pages/OurWork'
 import HappyClient from '../Pages/HappyClient'
-import RelationShip from '../Pages/RelationShip'
+
 import Industries from '../Pages/Industries'
 import OurClientSay from '../Pages/OurClientSay'
 import LetsWorkTogether from '../Pages/LetsWorkTogether'
@@ -24,7 +24,7 @@ function Indexpage() {
     <WhyChooseus/>
     <OurWork/>
     <HappyClient/>
-    <RelationShip/>
+    {/* <RelationShip/> */}
     <Industries/>
     <OurClientSay/>
     <LetsWorkTogether/>

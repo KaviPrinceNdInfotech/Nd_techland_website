@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function MobileAppPortal() {
     return (
@@ -17,8 +18,8 @@ function MobileAppPortal() {
 							</span></h2>
 					</div>
 					<div className="cta-card mt40">
-						<a href="#" className="btn-outline lnk">Request A Quote<i
-								className="fas fa-chevron-right fa-icon"></i><span className="circle"></span></a>
+						<Link to="/contactus" className="btn-outline lnk">Request A Quote<i
+								className="fas fa-chevron-right fa-icon"></i><span className="circle"></span></Link>
 					</div>
 				</div>
 				<div className="col-lg-6">
@@ -27,37 +28,37 @@ function MobileAppPortal() {
 							<div className="col-lg-4 col-md-6 col-sm-12 col-6">
 								<div className="funfct srcl1">
 									<img src="images/icons/startup.svg" alt="niwax app development template"/>
-									<span className="services-cuntr counter">20</span><span className="services-cuntr">+</span>
+									<span className="services-cuntr counter">14</span><span className="services-cuntr">+</span>
 									<p>Years Experience</p>
 								</div>
 							</div>
 							<div className="col-lg-4 col-md-6 col-sm-12 col-6">
 								<div className="funfct srcl2">
 									<img src="images/icons/team.svg" alt="niwax app development template"/>
-									<span className="services-cuntr counter">250</span><span className="services-cuntr">+</span>
+									<span className="services-cuntr counter">50+</span>
 									<p>Talented Squad</p>
 								</div>
 							</div>
 							<div className="col-lg-4 col-md-6 col-sm-12 col-6">
 								<div className="funfct srcl3">
 									<img src="images/icons/mobile.svg" alt="niwax app development template"/>
-									<span className="services-cuntr counter">1200</span><span
-										className="services-cuntr">+</span>
+									<span className="services-cuntr counter">100+</span>
+								
 									<p>Apps Developed</p>
 								</div>
 							</div>
 							<div className="col-lg-4 col-md-6 col-sm-12 col-6">
 								<div className="funfct srcl4">
 									<img src="images/icons/computers.svg" alt="niwax app development template"/>
-									<span className="services-cuntr counter">100</span><span className="services-cuntr">%</span>
+									<span className="services-cuntr counter">400+</span><span className="services-cuntr"></span>
 									<p>Projects Delivered</p>
 								</div>
 							</div>
 							<div className="col-lg-4 col-md-6 col-sm-12 col-6">
 								<div className="funfct srcl5">
 									<img src="images/icons/world.svg" alt="niwax app development template"/>
-									<span className="services-cuntr counter">120</span><span className="services-cuntr">+</span>
-									<p>Countries Served</p>
+									<span className="services-cuntr counter">100+</span><span className="services-cuntr"></span>
+									<p>Cites Served</p>
 								</div>
 							</div>
 							<div className="col-lg-4 col-md-6 col-sm-12 col-6">

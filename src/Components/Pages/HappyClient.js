@@ -1,4 +1,5 @@
 import React from 'react'
+import Image12 from '../Image/Govt.png'
 
 function HappyClient() {
   return (
@@ -20,7 +21,7 @@ function HappyClient() {
 							<li className="col-lg-2 col-md-3 col-sm-4 col-6 mt30 wow fadeIn" data-wow-delay=".2s">
 								<div className="brand-logo hoshd"><img src="images/client/election.jpg" alt="clients"
 										className="img-fluid"/></div>
-								<p>Election Comission Of India</p>
+								<p>ECI</p>
 							</li>
 							<li className="col-lg-2 col-md-3 col-sm-4 col-6 mt30 wow fadeIn" data-wow-delay=".4s">
 								<div className="brand-logo hoshd"><img src="images/client/BRLPS-Recruitment.jpg" alt="clients"
@@ -28,14 +29,14 @@ function HappyClient() {
 								<p>BRLPS-Recruitment</p>
 							</li>
 							<li className="col-lg-2 col-md-3 col-sm-4 col-6 mt30 wow fadeIn" data-wow-delay=".6s">
-								<div className="brand-logo hoshd"><img src="images/client/rbi.jpg" alt="clients"
+								<div className="brand-logo hoshd"><img src={Image12}
 										className="img-fluid"/></div>
-								<p>RBI</p>
+								<p>Govt. of India</p>
 							</li>
 							<li className="col-lg-2 col-md-3 col-sm-4 col-6 mt30 wow fadeIn" data-wow-delay=".8s">
 								<div className="brand-logo hoshd"><img src="images/client/signature.png" alt="clients"
 										className="img-fluid"/></div>
-								<p>Signature The Grand Club</p>
+								<p>Signature  Grand Club</p>
 							</li>
 							<li className="col-lg-2 col-md-3 col-sm-4 col-6 mt30 wow fadeIn" data-wow-delay="1s">
 								<div className="brand-logo hoshd"><img src="images/client/fcc.jpg" alt="clients"
@@ -65,7 +66,7 @@ function HappyClient() {
 							<li className="col-lg-2 col-md-3 col-sm-4 col-6 mt30 wow fadeIn" data-wow-delay="2s">
 								<div className="brand-logo hoshd"><img src="images/client/bsbe.png" alt="clients"
 										className="img-fluid"/></div>
-								<p>Iconico, India</p>
+								<p>BSES Rajdhani Power Ltd</p>
 							</li>
 							<li className="col-lg-2 col-md-3 col-sm-4 col-6 mt30 wow fadeIn" data-wow-delay="2.2s">
 								<div className="brand-logo hoshd"><img src="images/client/bihar-foundation.png" alt="clients"

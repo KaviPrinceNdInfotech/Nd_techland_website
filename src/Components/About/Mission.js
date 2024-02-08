@@ -126,7 +126,7 @@ function Mission() {
 			<div className="row">
 				<div className="col-lg-8 block-1">
 					<div className="common-heading text-l pr25">
-						<span>Vision</span>
+					
 						<h2>Our Vision</h2>
 						<p>Our vision is to be the biggest worldwide mobile/web development organization. Focused in on steady advancement as our key for accomplishing a definitive objective of achievement and arise as around the world perceived organization by offering the superior quality types of assistance and services. We stick to the following standards in conveying our vision: </p>
 						<h5 className="mt20 mb10">Vision Statement</h5>
@@ -137,7 +137,7 @@ function Mission() {
 							<li>Be a lively association where receptiveness, trust, collaboration, straightforwardness, and development are esteemed and advanced.</li>
 							<li>We esteems honesty, responsibility, greatness, collaboration, straightforwardness, and fulfillment for our customers and ourselves.</li>
 							<li>Universally perceived for offering quality Types of assistance to its clients worldwide while sticking to our fundamental beliefs</li>
-							<li>Maecenas sed ligula tristique, vestibulum tellus nec, dictum nisl.</li>
+							
 						</ul>
 					</div>
 				</div>
@@ -157,8 +157,8 @@ function Mission() {
 					<div className="common-heading">
 						<span>Let's work together</span>
 						<h2>We Love to Listen to Your Requirements</h2>
-						<a href="javascript:void(0)" className="btn-outline">Estimate Project <i
-								className="fas fa-chevron-right fa-icon"></i></a>
+						<Link to="/contactus" className="btn-outline">Estimate Project <i
+								className="fas fa-chevron-right fa-icon"></i></Link>
 						<p className="cta-call">Or call us now <a href="tel:+1234567890"><i className="fas fa-phone-alt"></i>
 								(123)4354103</a></p>
 					</div>

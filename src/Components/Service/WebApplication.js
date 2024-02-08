@@ -7,6 +7,14 @@ import webdesign3 from "../Image/images (11).jpg"
 import webdesign4 from "../Image/images (12).jpg"
 import webdesign5 from "../Image/images (9).jpg"
 import webdesign6 from "../Image/download (3).jpg"
+import techonology1 from "../Image/9.png"
+import techonology2 from "../Image/8.png"
+import techonology3 from "../Image/10.png"
+import techonology4 from "../Image/11.png"
+import techonology5 from "../Image/1.png"
+import techonology6 from "../Image/6.png"
+import techonology7 from "../Image/2.png"
+import techonology from "../Image/7.png"
 
 function WebApplication() {
   return (
@@ -38,14 +46,14 @@ function WebApplication() {
       <div className="techonology-used-">
         <div className="container">
           <ul className="h-scroll tech-icons">
-            <li><a href="#"><img src="images/icons/stack-icon1.png" alt="icon" /></a></li>
-            <li><a href="#"><img src="images/icons/stack-icon2.png" alt="icon" /></a></li>
-            <li><a href="#"><img src="images/icons/stack-icon3.png" alt="icon" /></a></li>
-            <li><a href="#"><img src="images/icons/stack-icon4.png" alt="icon" /></a></li>
-            <li><a href="#"><img src="images/icons/stack-icon5.png" alt="icon" /></a></li>
-            <li><a href="#"><img src="images/icons/stack-icon6.png" alt="icon" /></a></li>
-            <li><a href="#"><img src="images/icons/stack-icon7.png" alt="icon" /></a></li>
-            <li><a href="#"><img src="images/icons/stack-icon8.png" alt="icon" /></a></li>
+            <li><a href="#"><img src={techonology1} alt="icon" className='h-75 w-75' /></a></li>
+            <li><a href="#"><img src={techonology2} alt="icon" className='h-75 w-75' /></a></li>
+            <li><a href="#"><img src={techonology3} alt="icon" className='h-75 w-75' /></a></li>
+            <li><a href="#"><img src={techonology4} alt="icon" className='h-75 w-75' /></a></li>
+            <li><a href="#"><img src={techonology} alt="icon"  className='h-75 w-75'/></a></li>
+            <li><a href="#"><img src={techonology5} alt="icon" className='h-75 w-75'/></a></li>
+            <li><a href="#"><img src={techonology6} alt="icon" className='h-75 w-75'/></a></li>
+            <li><a href="#"><img src={techonology7} alt="icon" className='h-75 w-75'/></a></li>
           </ul>
         </div>
       </div>
@@ -61,56 +69,60 @@ function WebApplication() {
               </div>
             </div>
           </div>
+
           <div className="row upset link-hover">
             <div className="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".2s">
               <div className="s-block">
                 <div className="s-card-icon"><img src="images/icons/logo-and-branding.svg" alt="service" className="img-fluid" /></div>
-                <h4>Graphic Designing Services</h4>
+                <h4>Web Development</h4>
                 <p>We design for India's most attractive brands. Free Brand Consultation. Web designing. packaging Design. Logo Design. Idea Brochures. Brand Strategy.</p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".4s">
               <div className="s-block">
                 <div className="s-card-icon"><img src="images/icons/service2.svg" alt="service" className="img-fluid" /></div>
-                <h4>Responsive Web Designing</h4>
+                <h4>ERP Development</h4>
                 <p>With responsive website designing services, you take out the requirement for multiple codes for saperate web pages and websites for various PCs, cell phones and tablets.</p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".6s">
               <div className="s-block">
                 <div className="s-card-icon"><img src="images/icons/service3.svg" alt="service" className="img-fluid" /></div>
-                <h4>Static Website Designing</h4>
+                <h4>CRM Development</h4>
                 <p>A static website design empowers site to store requests and communicate at a speedy rate. With a static site, you won't ever stress over content updating again and again.</p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay=".8s">
               <div className="s-block">
                 <div className="s-card-icon"><img src="images/icons/service4.svg" alt="service" className="img-fluid" /></div>
-                <h4>Dynamic Website Designing</h4>
+                <h4>E-Commmerce Website Development</h4>
                 <p>Having a dynamic website is like; having the opportunity to make changes on it as and when required. Dynamic web designing has the capacity of turning the visitors to customers.</p>
               </div>
             </div>
-            <div className="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay="1s">
+            {/* <div className="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay="1s">
               <div className="s-block">
                 <div className="s-card-icon"><img src="images/icons/service5.svg" alt="service" className="img-fluid" /></div>
-                <h4>Psd to HTML Service</h4>
+                <h4>UI/UX Deisgning</h4>
                 <p>Transform your PSD plans into responsive and bug free HTML sites with our PSD to HTML service - You'll be astonished how inexpensive is this service</p>
+              </div>
+            </div> */}
+            <div className="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay="1.2s">
+              <div className="s-block">
+                <div className="s-card-icon"><img src="images/icons/service6.svg" alt="service" className="img-fluid" /></div>
+                <h4>MLM Software</h4>
+                <p>We offer website design services for any kind of online site. Our skilled group of developers bring the information on client conduct and business assumptions into each site upgrade to draw in the right audience.</p>
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mt30 wow fadeInUp" data-wow-delay="1.2s">
               <div className="s-block">
                 <div className="s-card-icon"><img src="images/icons/service6.svg" alt="service" className="img-fluid" /></div>
-                <h4>Website Redesign Service</h4>
+                <h4>Hospital management Software</h4>
                 <p>We offer website design services for any kind of online site. Our skilled group of developers bring the information on client conduct and business assumptions into each site upgrade to draw in the right audience.</p>
               </div>
             </div>
+         
           </div>
-          <div className="-cta-btn mt70">
-            <div className="free-cta-title v-center wow zoomInDown" data-wow-delay="1.3s">
-              <p>Hire a <span>Dedicated Developer</span></p>
-              <a href="#" className="btn-main bg-btn2 lnk">Hire Now<i className="fas fa-chevron-right fa-icon"></i><span className="circle"></span></a>
-            </div>
-          </div>
+       
         </div>
       </section>
 
@@ -190,7 +202,7 @@ function WebApplication() {
             <div className="col-lg-7 v-center order2">
               <div className="ps-block">
                 <span  style={{background:"linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)"}}>5</span>
-                <h3>Lunch</h3>
+                <h3>Launch</h3>
                 <p>Launching a website can be an exciting and nerve-wracking process. Here are some key considerations for launching a website.Final testing,Domain name and hosting,Content management,SEO optimization,Analytics tracking,Backups,Promotion,Monitoring and etc.</p>
               </div>
             </div>
@@ -282,7 +294,7 @@ function WebApplication() {
           <div className="-cta-btn mt70">
             <div className="free-cta-title v-center wow zoomInDown" data-wow-delay="1.8s">
               <p>Let's Start a <span>New Project</span> Together</p>
-              <a href="#" className="btn-main bg-btn2 lnk">Inquire Now<i className="fas fa-chevron-right fa-icon"></i><span className="circle"></span></a>
+              <a href="/contactus" className="btn-main bg-btn2 lnk">Inquire Now<i className="fas fa-chevron-right fa-icon"></i><span className="circle"></span></a>
             </div>
           </div>
         </div>

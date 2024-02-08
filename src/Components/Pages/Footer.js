@@ -1,5 +1,8 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import logo from '../Image/logo.png'
+import blog from '../Image/images (6).jpg'
+import blog1 from '../Image/What-is-Digital-Marketing.png'
 import badge from "../Image/badges-a.png"
 import badge1 from "../Image/badges-b.png"
 import badge2 from '../Image/badges-c.png'
@@ -38,7 +41,7 @@ function Footer() {
                                 <a className="navbar-brand mt30 mb25 f-white-logo" href="#"> <img src={logo}
                                     alt="Logo"  style={{width:"150px"}}/></a>
                                 <p>We make experience that are alluring, easy to utilize, and drive results for your organization. We are not your typical web development organization.</p>
-                                <a href="#" className="btn-main bg-btn3 lnk mt20">Pay Online <i
+                                <a href="https://rzp.io/l/pAQuTAJo6n" className="btn-main bg-btn3 lnk mt20 cursor-pointer" target='_blank' title="Pay Online Here">Pay Online <i
                                     className="fas fa-chevron-right fa-icon"></i><span className="circle"></span></a>
                             </div>
                             <div className="col-lg-3 col-sm-6">
@@ -68,30 +71,30 @@ function Footer() {
                                     <li><a href="#">Customer's FAQ</a></li>
                                     <li><a href="#">Privacy Policy</a></li>
                                     <li><a href="#">Terms and Conditions</a></li>
-                                    <li><a href="#">N D infotech</a></li>
-                                    <li><a href="#">N D Pest Control</a></li>
+                                    <li><a href="https://ndinfotech.com/" target='_blank'>N D infotech</a></li>
+                                    <li><a href="https://organicdeal.in/" target='_blank'>Organic Deal</a></li>
                                 </ul>
                             </div>
                             <div className="col-lg-4 col-sm-6 footer-blog-">
                                 <h5>Latest Blogs</h5>
                                 <div className="single-blog-">
-                                    <div className="post-thumb"><a href="#"><img src="images/blog/blog-small.jpg" alt="blog" /></a>
+                                    <div className="post-thumb"><a href="#"><img src={blog} alt="blog" /></a>
                                     </div>
                                     <div className="content">
                                         <p className="post-meta"><span className="post-date"><i className="far fa-clock"></i>April 15,
-                                            2020</span></p>
-                                        <h4 className="title"><a href="blog-sngle.html">We Provide you Best &amp; Creative
+                                            2023</span></p>
+                                        <h4 className="title"><a href="#!">We Provide you Best &amp; Creative
                                             Consulting Service</a></h4>
                                     </div>
                                 </div>
                                 <div className="single-blog-">
-                                    <div className="post-thumb"><a href="#"><img src="images/blog/blog-small.jpg" alt="blog" /></a>
+                                    <div className="post-thumb"><Link to="/blog"><img src={blog1} alt="blog" /></Link>
                                     </div>
                                     <div className="content">
-                                        <p className="post-meta"><span className="post-date"><i className="far fa-clock"></i>April 15,
-                                            2020</span></p>
-                                        <h4 className="title"><a href="#">We Provide you Best &amp; Creative
-                                            Consulting Service</a></h4>
+                                        <p className="post-meta"><span className="post-date"><i className="far fa-clock"></i>April 21,
+                                            2023</span></p>
+                                        <h4 className="title"><Link to="/blog">We Provide you Best &amp; Creative
+                                            Consulting Service</Link></h4>
                                     </div>
                                 </div>
                             </div>
@@ -122,15 +125,15 @@ function Footer() {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="footer-social-media-icons">
-                                        <a href="https://in.linkedin.com/company/nd-techland" target="blank"><i className="fab fa-linkedin"></i></a>
-                                        <a href="https://www.facebook.com/ndtechland/" target="blank"><i className="fab fa-facebook"></i></a>
+                                        <a href="https://in.linkedin.com/company/nd-techland" target="_blank"><i className="fab fa-linkedin"></i></a>
+                                        <a href="https://www.facebook.com/ndtechland/" target="_blank"><i className="fab fa-facebook"></i></a>
                                         <a href="javascript:void(0)" target="blank"><i className="fab fa-twitter"></i></a>
-                                        <a href="https://www.instagram.com/ndtechland/" target="blank"><i className="fab fa-instagram"></i></a>
-                                        <a href="javascript:void(0)" target="blank"><i className="fab fa-youtube"></i></a>
+                                        <a href="https://www.instagram.com/ndtechland/" target="_blank"><i className="fab fa-instagram"></i></a>
+                                        <a href="https://youtube.com/@ndtechland8327?si=vydSyff0Wu6sC2iv" target="_blank"><i className="fab fa-youtube"></i></a>
                                      
                                     </div>
                                     <div className="footer-">
-                                        <p>© 2022-2023. All Rights Reserved By  <a
+                                        <p>©2024. All Rights Reserved By  <a
                                             href="
 
                                         www.info@ndtechland.com" target="blank">ND Techland</a></p>

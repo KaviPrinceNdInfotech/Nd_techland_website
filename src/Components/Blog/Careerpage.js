@@ -1,19 +1,19 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import career from "../Image/career.png"
+
+
 import corporate from "../Image/images (8).jpg"
+import bannerpost from "../Image/career.png"
 
 function Careerpage() {
     return (
         <>
 
-            <div>
-                <div style={{ backgroundImage: `url(${"https://cyfuture.com/images/careers/current-opportunities.jpg   "})`, width:"100vw",backgroundRepeat:"no-repeat",WebkitBackgroundSize:"cover" }}>
+            <section className=''>
+                <div style={{ backgroundImage: `url(${bannerpost})`, height: "70vh", backgroundRepeat: "no-repeat",backgroundSize:"cover" }}>
 
-                  
+
                 </div>
-
-            </div>
+            </section>
 
             <section className="about-agencys pad-tb block-1 dark-bg3">
                 <div className="container">
